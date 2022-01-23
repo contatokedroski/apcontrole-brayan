@@ -1,0 +1,8 @@
+para vc poder rodar os projeto 
+  vc deve ter o xampp ,eclipce
+  e criar o banco de dados  com os codigos abaixo
+  create database apcontrole
+		create table despesas (id int primary key auto_increment,descricao	varchar(100) not null,tipo_despesa	varchar(20)	not null,status_pagamento	varchar(20) not null,vencimento_fatura	int(11) not null,	valor	double not null	); ");
+		create table pessoas ( id_pessoa int primary key auto_increment,nome	varchar(50) not null,idade	int(3) not null,genero	varchar(50) not null , telefone	varchar(50) not null ,email	varchar(50) not null");
+		create table unidades( numeroDaUnidade int not null,nomeDaUnidade	varchar(20) not null,proprietario	varchar(20) not null,condominio	varchar(20) not null,endereco	varchar(20) not null");
+			
